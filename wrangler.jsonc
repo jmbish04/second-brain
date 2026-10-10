@@ -12,6 +12,7 @@
 			"database_name": "second-brain","database_id": "a2d5198f-30f8-4140-9585-a1ce7c1933dc"
 		}
 	],
+// wrangler vectorize create second-brain-vectors --dimensions 384 --metric cosine
 	"vectorize": [
 		{
 			"binding": "VECTORIZE",
